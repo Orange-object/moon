@@ -26,6 +26,11 @@ body {
 .box:nth-child(even) {
   background-color: #ccc;
   color: #000;
+
+}
+.box:nth-child(odd) {
+  background-color: #ccc;
+  color: #000;
 }
 
 .wrapper {
