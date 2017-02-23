@@ -4,38 +4,45 @@ body {background-color:#800080;}
 	a{color:#3383ff}
 	a: hover{color:#009dff}
 
+.answers li { 
+list-style: upper-alpha; 
+} 
 
-body {
-  margin: 40px;
+label { 
+margin-left: 0.5em; 
+cursor: pointer; 
+} 
+
+#results { 
+background: #dddada; 
+color: 000000; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
 }
 
-.box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 40px;
-  font-size: 150%;
+#results:hover { 
+background: #3d91b8; 
+color: #ffffff; 
+padding: 3px; 
+text-align: center; 
+width: 200px; 
+cursor: pointer; 
+border: 1px solid gray; 
+} 
+
+#categorylist { 
+margin-top: 6px; 
+display: none; 
+} 
+
+#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
+display: none; 
 }
 
-.box:nth-child(even) {
-  background-color: #ccc;
-  color: #000;
-
+#closing {
+display: none;
+font-style: italic;
 }
-.box:nth-child(odd) {
-  background-color: #ccc;
-  color: #000;
-}
-
-.wrapper {
-  width: 600px;
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(6, 400px);
-  grid-template-rows: 400px 400px 400px;
-  grid-auto-flow: column;
-}
-img .left https://leepavelich.files.wordpress.com/2012/03/earth-about-sun.png
-img .left1 http://img.sparknotes.com/content/sparklife/sparktalk/2013/whatifthesunwasgonebro_LargeWide.jpg
-img .right http://beforeitsnews.com/contributor/upload/30080/images/moon-orbit.jpg
-img .right1 http://www.theness.com/images/blogImages/moon2.jpg
