@@ -40,44 +40,30 @@ img .left1 http://img.sparknotes.com/content/sparklife/sparktalk/2013/whatifthes
 img .right http://beforeitsnews.com/contributor/upload/30080/images/moon-orbit.jpg
 img .right1 http://www.theness.com/images/blogImages/moon2.jpg
 
-<html>
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
 }
 
-li {
-    float: left;
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #036;
 }
 
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #369;
 }
 
-li a:hover {
-    background-color: #111;
-}
-</style>
-</head>
-<body>
-
-<div class="limenu">	
-	<ul id="hifive">
-<div><ul>
-  <li><a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a></li>
-</ul></div>
 
 </body>
 </html>
