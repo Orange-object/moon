@@ -53,7 +53,7 @@ text-align: center;
 #navcontainer ul li a
 {
 text-decoration: none;
-padding: .2em 1em;
+padding: 0px;
 color: #fff;
 background-color: #036;
 }
