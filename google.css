@@ -56,6 +56,7 @@ text-decoration: none;
 padding: .2em 1em;
 color: #fff;
 background-color: #036;
+	margin:0px;
 }
 
 #navcontainer ul li a:hover
