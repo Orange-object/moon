@@ -39,3 +39,43 @@ img .left https://leepavelich.files.wordpress.com/2012/03/earth-about-sun.png
 img .left1 http://img.sparknotes.com/content/sparklife/sparktalk/2013/whatifthesunwasgonebro_LargeWide.jpg
 img .right http://beforeitsnews.com/contributor/upload/30080/images/moon-orbit.jpg
 img .right1 http://www.theness.com/images/blogImages/moon2.jpg
+
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
+</html>
