@@ -1,0 +1,41 @@
+body {background-color:#800080;}
+	background-image: https://orange-object.github.io/dude/;
+}
+	a{color:#3383ff}
+	a: hover{color:#009dff}
+
+
+body {
+  margin: 40px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 40px;
+  font-size: 150%;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+
+}
+.box:nth-child(odd) {
+  background-color: #ccc;
+  color: #000;
+}
+
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 400px);
+  grid-template-rows: 400px 400px 400px;
+  grid-auto-flow: column;
+}
+img .left https://leepavelich.files.wordpress.com/2012/03/earth-about-sun.png
+img .left1 http://img.sparknotes.com/content/sparklife/sparktalk/2013/whatifthesunwasgonebro_LargeWide.jpg
+img .right http://beforeitsnews.com/contributor/upload/30080/images/moon-orbit.jpg
+img .right1 http://www.theness.com/images/blogImages/moon2.jpg
