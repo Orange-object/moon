@@ -47,6 +47,7 @@ img .right1 http://www.theness.com/images/blogImages/moon2.jpg
 {
 margin: 0;
 padding: 0;
+	width: 0px;
 list-style-type: none;
 text-align: center;
 }
