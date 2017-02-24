@@ -26,7 +26,7 @@ l {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:;
     background-color: #FDB813;
 }
 
@@ -50,7 +50,7 @@ al {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:;
     background-color: #A9A9A9;
 }
 
@@ -59,7 +59,7 @@ ll {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow:;
     background-color: #A9A9A9;
 }
 
